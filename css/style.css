@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+* {
+  font-family: "Karla", sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-size: 16px;
+  margin: auto;
+  width: auto;
+}
+.main {
+  margin: 50px 70px;
+}
+h1 {
+  font-weight: 700;
+  color: rgb(29, 196, 196);
+  padding-bottom: 1.2em;
+}
+h3 {
+  color: hsl(71, 73%, 54%);
+  padding-bottom: 0.8em;
+}
+p {
+  color: hsl(203, 10%, 74%);
+}
+.left-section {
+  float: left;
+  width: 40%;
+  padding: 0% 5%;
+  background: hsl(189, 71%, 41%);
+  margin-left: 0;
+  justify-content: left;
+  display: flex;
+}
+.left-section h3 {
+  padding-top: 2.5em;
+  color: aliceblue;
+}
+
+.left-section h1 {
+  color: aliceblue;
+  font-size: 2em;
+  padding-bottom: 10px;
+}
+.left-section span {
+  font-size: 20px;
+  font-weight: 100;
+  color: hsl(204, 24%, 84%);
+}
+.left-section p {
+  color: aliceblue;
+}
+.signup-btn {
+  background: hsl(71, 73%, 54%);
+  display: block;
+  border-radius: 0.2em;
+  margin-top: 1.5em;
+  margin-bottom: 3.5em;
+  padding: 0.8em 0.6em;
+  box-shadow: 2 2 10px rgb(150, 145, 145);
+  text-align: center;
+  cursor: pointer;
+}
+.signup-btn a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.right-section {
+  float: right;
+  width: 40%;
+  padding: 0% 5%;
+  background: hsl(189, 93%, 41%);
+  margin-left: 0;
+  justify-content: left;
+  display: flex;
+}
+.right-section h3 {
+  padding-top: 2.5em;
+  color: aliceblue;
+}
+.right-section p {
+  color: aliceblue;
+  line-height: 1.9;
+}
+
+@media (max-width: 375px) {
+  .main {
+    width: 100%;
+  }
+  .left-section {
+    width: 100%;
+  }
+}
